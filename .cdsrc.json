@@ -1,2 +1,12 @@
 {
+  "requires": {
+    "[production]": {
+      "auth": "xsuaa",
+      "db": "hana"
+    },
+    "[omit&#x3D;dev]": {
+      "auth": "xsuaa",
+      "db": "hana"
+    }
+  }
 }

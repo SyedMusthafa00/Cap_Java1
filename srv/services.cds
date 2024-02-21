@@ -18,4 +18,5 @@ extend service AdminService with {
     entity Authors as projection on db.Authors;
 }
 
+annotate AdminService @(requires: 'Administrators');
 

@@ -9,4 +9,16 @@ cds:
       users:
         - name: admin
           password: nimda
+          roles:
+            - Administrators
+          additional:
+            firstName: Syed
+            lastName: Musthafa
+            email: s.vahathbasha@sierradigitalinc.com
+        - name: admin001
+          password: nimda
+          additional:
+            firstName: Syed
+            lastName: Ashif
+            email: s.ashif@sierradigitalinc.com
 
